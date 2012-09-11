@@ -32,7 +32,7 @@ else
     curl --silent --location $GRADLE_URL | tar xz
     echo " done"
   fi
-  BUILDCMD="gradle -I $OPT_DIR/init.gradle --stacktrace --debug"
+  BUILDCMD="gradle -I $OPT_DIR/init.gradle --stacktrace"
 
 fi
 
